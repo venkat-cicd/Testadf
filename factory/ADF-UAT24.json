@@ -1,0 +1,9 @@
+{
+	"name": "ADF-UAT24",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "47af47b5-583a-47d5-8b5a-1d0e94056eca",
+		"tenantId": "801c8005-9185-4017-943f-6a1b71b55e99"
+	}
+}
