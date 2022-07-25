@@ -48,7 +48,22 @@
 						}
 					},
 					"enableStaging": false,
-					"validateDataConsistency": false
+					"parallelCopies": 1,
+					"validateDataConsistency": true,
+					"logSettings": {
+						"enableCopyActivityLog": true,
+						"copyActivityLogSettings": {
+							"logLevel": "Warning",
+							"enableReliableLogging": false
+						},
+						"logLocationSettings": {
+							"linkedServiceName": {
+								"referenceName": "AzureBlobStorage1",
+								"type": "LinkedServiceReference"
+							},
+							"path": "newcontainer"
+						}
+					}
 				},
 				"inputs": [
 					{
